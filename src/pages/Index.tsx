@@ -20,13 +20,13 @@ const Index = () => {
         <section className="relative overflow-hidden bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/20 py-20 md:py-32">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center" data-aos="fade-up">
-              <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate__animated animate__fadeInUp">
+              <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6">
                 Descubre el mágico mundo de la <span className="text-primary">lectura</span>
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-12 animate__animated animate__fadeInUp animate__delay-1s">
+              <p className="text-xl md:text-2xl text-muted-foreground mb-12">
                 Crea hábitos de lectura mientras te diviertes en el metaverso. ¡Aventuras, medallas y nuevos amigos te esperan!
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center animate__animated animate__fadeInUp animate__delay-2s">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   to="/biblioteca"
                   className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg shadow-lg hover:bg-primary/90 transition-all hover:scale-105"
