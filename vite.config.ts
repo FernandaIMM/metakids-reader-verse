@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/metakids-reader-verse/',
+  base: mode === 'production' ? '/metakids-reader-verse/' : '/',
   server: {
     host: "::",
     port: 8080,
